@@ -18,12 +18,15 @@ export GITHUB_ORG="org"
 export GITHUB_REPOSITORIES="repo_1,repo_2"
 export GITHUB_TOKEN="secret"
 
+# optional - export to svg
+export DEPS_EXPORT_TO_SVG=false
+
 deps dashboard
 ```
 
 ## Getting started with local development
 
-To build and run the CLI on your host, you will need Python 3.9, pip, and virtualenv to build and run `review`.
+To build and run the CLI on your host, you will need Python 3.9 or greater, pip, and virtualenv to build and run `deps`.
 If you wish to publish a PR with your changes, first create a fork on Github and clone that code.
 
 ```bash
